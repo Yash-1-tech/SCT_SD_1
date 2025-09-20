@@ -10,7 +10,7 @@ def main():
     convert_kel(value)
 
 
-def covert_cel(C):
+def convert_cel(C):
   F = C*9/5 + 32
   K = C + 273.15
   print_deg(F, C, K)
